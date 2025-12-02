@@ -1,7 +1,7 @@
-<div align="center">
-
 # 🤖 AI Specialist Prompt Library
 ### *Universal Prompts That Work Across Any AI Platform*
+
+<div align="center">
 
 ![Universal](https://img.shields.io/badge/Works%20On-Gemini%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Any%20AI-blueviolet?style=for-the-badge)
 ![Zero Code](https://img.shields.io/badge/Code%20Required-ZERO-00D9FF?style=for-the-badge)
@@ -9,7 +9,15 @@
 
 **Battle-tested prompts that transform any AI into specialized experts**
 
-[🎯 Quick Start](#-quick-start) • [💎 Prompt Library](#-prompt-library) • [🏗️ Create Prompts](#-prompt-engineering-guide) • [🆓 Best Free Platform](#-platform-guide)
+<!-- Keywords: AI Prompts, System Instructions, LLM Prompts, Gemini Gems, ChatGPT Custom GPT, Claude Projects, AI Agents, Prompt Engineering, Cybersecurity Prompts, OWASP, Penetration Testing, Free AI Tools, Mathan Subbiah -->
+
+[🎯 Quick Start](#-quick-start) • [🚀 Live AI Specialists](#-live-ai-specialists) • [🏗️ Create Prompts](#-prompt-engineering-guide) • [🆓 Best Free Platform](#-one-prompt-every-platform)
+
+<br>
+
+<p align="center">
+  <b>Created by <a href="https://github.com/PrototypePrime">Mathan Subbiah</a></b>
+</p>
 
 </div>
 
