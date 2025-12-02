@@ -1,6 +1,6 @@
-# Contributing to Gemini Gems Arsenal
+# Contributing to AI Specialist Prompt Library
 
-🎉 **Thank you for wanting to contribute!** This project thrives on community-created AI specialists.
+🎉 **Thank you for contributing!** This library provides universal prompts that work across all AI platforms.
 
 ---
 
@@ -8,26 +8,22 @@
 
 ### What We Accept
 
-✅ **New Gem Prompts**
-- Well-tested, production-ready prompts
-- Clear use case and value proposition
+✅ **Universal Prompts**
+- Work on Gemini, ChatGPT, Claude (minimum 3 platforms)
+- No platform-specific features or integrations
+- Well-tested and production-ready
 - Complete documentation using our template
 
-✅ **Improvements to Existing Gems**
-- Bug fixes in prompt logic
-- Enhanced capabilities
+✅ **Improvements**
+- Bug fixes in existing prompts
 - Better examples or documentation
-
-✅ **Documentation Updates**
-- Fixing typos or broken links
-- Adding clarity to setup instructions
-- New use case examples
+- Performance enhancements
 
 ❌ **What We Don't Accept**
+- Platform-specific prompts (must be universal)
 - Untested or theoretical prompts
-- Gems for illegal/unethical purposes
-- Low-effort submissions without examples
-- Duplicate Gems without significant differentiation
+- Low-effort submissions
+- Prompts for illegal/unethical purposes
 
 ---
 
@@ -35,184 +31,187 @@
 
 ### Step 1: Fork & Clone
 ```bash
-git clone https://github.com/YourUsername/Custom_AI-Powered_GPT.git
-cd Custom_AI-Powered_GPT
+git clone https://github.com/PrototypePrime/AI_Specialist_Prompt_Library.git
+cd AI_Specialist_Prompt_Library
 ```
 
-### Step 2: Create Your Gem
+### Step 2: Create Your Prompt
 
 1. **Copy the template:**
    ```bash
-   cp GEM_PROMPTS/_TEMPLATE.md GEM_PROMPTS/[category]/[your-gem-name].md
+   cp PROMPTS/_TEMPLATE.md PROMPTS/[your-prompt-name].md
    ```
 
-2. **Choose the right category:**
-   - `security/` - Cybersecurity, pentesting, compliance
-   - `devops/` - Infrastructure, CI/CD, deployment
-   - `creative/` - Writing, design, content creation
-   - `data/` - Analytics, databases, data science
-   - `business/` - Strategy, sales, marketing
-   - Other? Create a new category!
+2. **Naming Convention:**
+   - Use descriptive names: `Git_Commit_Message_Writer.md`
+   - Use underscores for spaces
+   - No category subfolders needed (keep it flat!)
 
 3. **Fill out ALL template sections:**
    - Overview with clear description
-   - Complete prompt (fully formatted)
-   - At least 2 usage examples with real inputs/outputs
-   - Setup instructions
-   - Pro tips and best practices
+   - Complete universal prompt
+   - At least 2 platform-specific usage examples
+   - Testing notes for multiple platforms
 
-### Step 3: Test Thoroughly
+### Step 3: Test Across Platforms
 
-Before submitting, **you MUST test your Gem:**
+**REQUIRED:** Test on at least 3 platforms before submitting:
 
-- [ ] Create the Gem in Gemini
-- [ ] Run at least **10 different test queries**
-- [ ] Verify responses match expectations
-- [ ] Test edge cases and failure scenarios
-- [ ] Document any limitations or prerequisites
+- [ ] ✅ **Google Gemini** (Free Tier - create a Gem)
+- [ ] ✅ **ChatGPT** (Plus - create Custom GPT)
+- [ ] ✅ **Claude** (Free Tier or Pro Project)
+- [ ] ✅ **Standard chat** (paste prompt in any AI)
+
+**Minimum requirements:**
+- 10+ test conversations per platform
+- Document any platform-specific quirks
+- Verify output quality is consistent
 
 ### Step 4: Document Evidence
 
-**Required for approval:**
-1. **Screenshot** of your Gem in action (blur any sensitive data)
-2. **Example conversation** showing 3-5 exchanges
-3. **Version info:** Note if it requires Free vs. Advanced tier
+Include in your prompt file:
+
+1. **Platform compatibility table**
+   ```markdown
+   | Platform | Tested | Works | Notes |
+   |----------|--------|-------|-------|
+   | Gemini | ✅ | ✅ | Perfect on Free Tier |
+   | ChatGPT | ✅ | ✅ | Requires Plus for Custom GPT |
+   | Claude | ✅ | ✅ | Works on Free (paste) or Pro (Project) |
+   ```
+
+2. **Example conversations** (at least 2)
+3. **Screenshots** (blur sensitive data)
 
 ### Step 5: Submit Pull Request
 
 ```bash
-git checkout -b gem/your-gem-name
-git add GEM_PROMPTS/[category]/[your-gem-name].md
-git commit -m "Add [Gem Name] for [use case]"
-git push origin gem/your-gem-name
+git checkout -b prompt/your-prompt-name
+git add PROMPTS/[your-prompt-name].md
+git commit -m "Add [Prompt Name] for [use case]"
+git push origin prompt/your-prompt-name
 ```
 
-**In your PR description, include:**
+**In your PR description:**
 ```markdown
-## Gem Submission: [Name]
+## Prompt Submission: [Name]
 
 **Category:** [Security/DevOps/etc.]
-**Tier Required:** [Free / Advanced]
+**Universal Compatibility:** ✅ Yes
 
-### What This Gem Does
+### What This Prompt Does
 [2-sentence description]
 
 ### Why It's Useful
 [Real-world use case]
 
-### Testing Evidence
-- ✅ Tested with 10+ queries
-- ✅ Screenshot attached: [link]
-- ✅ Example conversation in documentation
+### Platform Testing
+- ✅ Gemini: Tested, works perfectly
+- ✅ ChatGPT: Tested as Custom GPT
+- ✅ Claude: Tested in Projects
+- ✅ Standard chat: Works with copy-paste
 
 ### Checklist
 - [ ] Used official template
-- [ ] All sections completed
+- [ ] No platform-specific features
+- [ ] Tested on 3+ platforms
 - [ ] At least 2 usage examples
-- [ ] Thoroughly tested
-- [ ] No sensitive data in examples
+- [ ] All sections completed
 ```
 
 ---
 
-## 🎨 Style Guide
+## 🎨 Universal Prompt Standards
 
-### Prompt Formatting
+### Must Be Platform-Agnostic
 
-**Good Prompt Structure:**
+**✅ GOOD - Universal:**
 ```markdown
-You are [Specific Role with Authority/Credentials].
+You are a senior Python developer who reviews code for security issues.
 
-PRIMARY ROLE:
-[Clear statement of purpose]
-
-HARD CONSTRAINTS:
-1. [Unbreakable rule 1]
-2. [Unbreakable rule 2]
-
-RESPONSE FORMAT:
-[Exact structure the Gem must follow]
-
-EXPERTISE AREAS:
-- [Specific skill 1]
-- [Specific skill 2]
-
-TONE:
-[Personality description]
+RULES:
+- Scan for SQL injection, XSS, CSRF
+- Provide specific line numbers
+- Suggest secure alternatives
+- Format: Issue → Risk → Fix
 ```
 
-**Avoid:**
-- Vague roles: ❌ "You are helpful"
-- Missing constraints: ❌ No output format specified
-- Overly broad expertise: ❌ "You know everything"
+**❌ BAD - Platform-Specific:**
+```markdown
+You are a Gemini Gem that analyzes Google Drive files...
+[Uses Actions to call external API...]
+[References GPT Store integrations...]
+```
 
-### Documentation Standards
+### Required Sections (from Template)
 
-- **Use headings** for scanability
-- **Include code blocks** with syntax highlighting
-- **Provide real examples**, not placeholders
-- **Link to external resources** where helpful
-- **Use emoji sparingly** for visual markers (see template)
+1. **Overview** - Category, difficulty, use case
+2. **The Prompt** - Complete, copy-paste ready
+3. **Usage Examples** - 2+ with inputs/outputs
+4. **Platform Notes** - How to use on each platform
+5. **Pro Tips** - Optimization advice
+6. **Testing Notes** - What you verified
 
 ---
 
 ## 🔍 Review Process
 
-### What Reviewers Look For
+### What Reviewers Check
 
-1. **Completeness**
-   - All template sections filled
-   - Clear, actionable prompt
-   - Multiple tested examples
+1. **Universality**
+   - Works on Gemini (Free Tier)
+   - Works on ChatGPT (Plus Tier)
+   - Works on Claude (Free/Pro Tier)
+   - Works in standard chat (copy-paste)
 
 2. **Quality**
-   - Prompt is specific and constrained
-   - Examples show real value
-   - No obvious errors or broken instructions
+   - Clear, specific instructions
+   - Proper constraints and format
+   - Well-defined expertise domain
+   - Real usage examples
 
-3. **Uniqueness**
-   - Not a duplicate of existing Gem
-   - Adds clear value to the library
+3. **Documentation**
+   - All template sections filled
+   - Platform testing documented
+   - Examples with real inputs/outputs
 
 4. **Safety**
-   - No prompts for illegal/unethical activities
-   - Respects privacy and security
+   - No illegal/unethical guidance
+   - Privacy-respecting
+   - No hardcoded secrets/keys
 
 ### Timeline
 
-- **Initial Review:** Within 5 business days
+- **Initial Review:** 5 business days
 - **Feedback:** We may request changes
-- **Merge:** Once approved and tested
+- **Merge:** Once approved and universality verified
 
 ---
 
 ## 🏆 Recognition
 
 Contributors get:
-- 🎖️ **Name in the Gem's "Created by" section**
-- 🌟 **Listed in our Contributors section** (coming soon)
-- 💎 **Community karma** for helping others
-
-Top contributors may be invited to co-maintain specific Gem categories!
+- 🎖️ **Name in prompt's "Created by" section**
+- 🌟 **Listed in Contributors section**
+- 💎 **Community recognition**
 
 ---
 
 ## 💬 Questions?
 
-- **💡 Idea for a Gem but need help?** [Start a Discussion](https://github.com/YourUsername/Custom_AI-Powered_GPT/discussions)
-- **🐛 Found a bug?** [Open an Issue](https://github.com/YourUsername/Custom_AI-Powered_GPT/issues)
-- **📧 Direct contact:** [Your email or contact method]
+- **💡 Need help?** [Start a Discussion](https://github.com/PrototypePrime/AI_Specialist_Prompt_Library/discussions)
+- **🐛 Found a bug?** [Open an Issue](https://github.com/PrototypePrime/AI_Specialist_Prompt_Library/issues)
 
 ---
 
 ## 📜 Code of Conduct
 
 By contributing, you agree to:
+- Create prompts for legitimate, ethical purposes
+- Test thoroughly across platforms
 - Be respectful and constructive
-- Create Gems for legitimate, ethical purposes
-- Give credit where credit is due
-- Help maintain a welcoming community
+- Help maintain quality standards
 
 ---
 
-**Ready to contribute?** Let's build the ultimate AI specialist library together! 🚀
+**Ready to contribute?** Grab the [template](./PROMPTS/_TEMPLATE.md) and build something amazing! 🚀

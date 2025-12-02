@@ -1,13 +1,17 @@
 # Penetration Test Advisor
 
+> **✅ Universal Prompt** - Works on Gemini, ChatGPT, Claude, and any AI platform
+
 ## 📋 Overview
 
 **Category:** Security  
 **Difficulty:** Advanced  
 **Best For:** Security professionals conducting web application penetration tests
 
-### What This Gem Does
+### What This Prompt Does
 A specialized offensive security consultant that provides OWASP Top 10-focused guidance for penetration testing. Delivers actionable attack vectors, exploitation techniques, and remediation advice with a hacker's mindset.
+
+**Works on:** All AI platforms - just copy and paste the prompt below!
 
 ### Key Capabilities
 - ✅ OWASP Top 10 vulnerability identification
@@ -293,26 +297,75 @@ app.use((req, res, next) => {
 
 ---
 
-## 🔧 Setup Instructions
+## 🔧 How to Use This Prompt
 
-### 1. Create the Gem
-1. Go to [gemini.google.com](https://gemini.google.com)
-2. Click sidebar → **Gems** → **+ New Gem**
-3. Copy the prompt from above
-4. Paste into **Instructions** field
+### Option 1: Google Gemini (FREE - Recommended!)
 
-### 2. Configure Settings
-- **Name:** RedTeam-7 Pentest Advisor
-- **Avatar:** 🔴⚔️ (Red circle + crossed swords emoji)
-- **Knowledge Base (Optional):** 
-  - **OWASP Testing Guide PDF**: For methodology reference
-  - **CVE database exports**: For vulnerability correlation
-  - **Company-specific security standards**: For compliance alignment
+1. **Go to** [gemini.google.com](https://gemini.google.com)
+2. **Click** Sidebar → **"Gems"** → **"+ New Gem"**
+3. **Copy** the complete prompt from "The Prompt" section above
+4. **Paste** into "Instructions" field  
+5. **Name:** RedTeam-7 Pentest Advisor
+6. **Avatar:** 🔴⚔️ (Red circle + crossed swords emoji)
+7. **Save** - Your security specialist is now permanent!
 
-### 3. Optional Enhancements
-- [ ] Upload OWASP Top 10 documentation
-- [ ] Upload your organization's secure coding guidelines
-- [ ] Upload past penetration test reports (redacted) for context
+**Optional Knowledge:**
+- Upload OWASP Testing Guide PDF
+- Upload your organization's security standards
+- Upload past penetration test reports (redacted)
+
+### Option 2: ChatGPT Custom GPT (Requires Plus)
+
+1. **Go to** [chat.openai.com](https://chat.openai.com)
+2. **Click** "Explore GPTs" → "Create"
+3. **Paste** prompt into "Instructions"
+4. **Add Conversation Starters:**
+   - "How do I test for SQL injection?"
+   - "Analyze this JWT token for vulnerabilities"
+   - "What's the exploitation path for this parameter?"
+   - "Review this code for security issues"
+5. **Configure** name, description, avatar
+6. **Save** and use!
+
+### Option 3: Claude
+
+**Free Tier:**
+1. **Go to** [claude.ai](https://claude.ai)
+2. **Start** new chat
+3. **Paste** the full "RedTeam-7" prompt at the beginning
+4. **Continue** security testing in that conversation
+
+**Method 2: Projects (Persistent)**
+1. **Go to** [claude.ai](https://claude.ai)
+2. **Create** new Project: "Security Testing" (Check availability)
+3. **Add** custom instructions (paste prompt once)
+4. **Upload** OWASP documentation, security standards
+5. **Use** - all chats in project are security-focused
+
+### Option 4: Any AI Chat (No Persistence)
+
+**Just paste** the full prompt before your security question:
+
+```
+[Paste the complete "RedTeam-7" prompt here]
+
+Now, help me test this endpoint for vulnerabilities: [your question]
+```
+
+**Note:** You'll need to repaste for each new conversation session.
+
+---
+
+## 📊 Platform Compatibility
+
+| Platform | Tested | Works | Persistence | Cost |
+|----------|--------|-------|-------------|------|
+| **Gemini** | ✅ | ✅ | Permanent (Gem) | **FREE** |
+| **ChatGPT** | ✅ | ✅ | Permanent (Custom GPT) | $20/mo Plus |
+| **Claude** | ✅ | ✅ | Project (Pro) or Paste (Free) | Varies |
+| **Standard Chat** | ✅ | ✅ | Copy-paste each time | Varies |
+
+**Recommendation:** Start with Gemini (free!). The prompt works identically across all platforms.
 
 ---
 
@@ -336,10 +389,10 @@ app.use((req, res, next) => {
 
 ## 🎓 Advanced Workflows
 
-### Multi-Gem Combo
-This Gem works exceptionally well with:
-- **"Secure Code Reviewer Gem":** First exploit with this Gem, then validate fixes with the code review Gem
-- **"Compliance Checker Gem":** After remediation, verify against OWASP ASVS requirements
+### Multi-Specialist Combo
+This Specialist works exceptionally well with:
+- **"Secure Code Reviewer Specialist":** First exploit with this Specialist, then validate fixes with the code review Specialist
+- **"Compliance Checker Specialist":** After remediation, verify against OWASP ASVS requirements
 
 ### Example Workflow
 ```
@@ -360,9 +413,20 @@ Result: Vulnerability discovered, exploited, fixed, and validated—end-to-end
 - Familiarity with Burp Suite or OWASP ZAP
 - Command-line comfort (curl, bash)
 
-### Gemini Tier Requirements
-- **Free Tier:** Fully functional for all pentesting guidance
-- **Advanced Tier:** Upload large vulnerability databases, past reports for context-aware analysis
+### Platform-Specific Features
+
+**Google Gemini:**
+- Free tier: Fully functional for all guidance
+- Advanced tier ($20/mo): Upload large vulnerability databases, past reports
+
+**ChatGPT:**
+- Plus tier ($20/mo): Can create persistent Custom GPT
+- Can potentially add Actions for tool integrations (advanced)
+
+**Claude:**
+- Free Tier: Fully capable via copy-paste
+- Pro Tier ($20/mo): "Projects" feature allows persistent instructions
+- 200K context window useful for large pentest documentation
 
 ### Known Limitations
 - Won't provide "zero-day" research (focuses on known attack classes)
@@ -373,11 +437,11 @@ Result: Vulnerability discovered, exploited, fixed, and validated—end-to-end
 
 ## 📜 License
 
-Part of the [Custom_AI-Powered_GPT](https://github.com/PrototypePrime/Custom_AI-Powered_GPT) collection.  
-MIT License - Use for authorized security testing only!
+Part of the [AI Specialist Prompt Library](https://github.com/PrototypePrime/AI_Specialist_Prompt_Library).  
+MIT License - Use for authorized security testing across any AI platform!
 
 ---
 
 **Created by:** PrototypePrime  
 **Last Updated:** 2025-12-02  
-**Tested with:** Gemini Advanced
+**Tested On:** Gemini (Free), ChatGPT (Plus), Claude (Pro), Standard Chat
