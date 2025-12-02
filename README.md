@@ -96,7 +96,7 @@ Just **paste the prompt** at the start of your conversation before asking questi
 |-------------------|------------------|--------------|-------------|
 | **OWASP AI Learning Guide** | [View Prompt](./PROMPTS/OWASP_AI_Learning_Guide.md) | [**Play on Gemini**](https://gemini.google.com/gem/1dqqDjbcTQg0IanTcWFbYVD2390CpUIu3?usp=sharing) | 🎮 Gamified AI security training & simulation |
 | **Penetration Test Advisor** | [View Prompt](./PROMPTS/penetration_test_advisor.md) | *[Add Link]* | 🛡️ OWASP web app security expert |
-| *Your New Project* | *[Link to file]* | *[Link to Gem]* | *Short description* |
+| *Coming soon* | *[Link to file]* | *[Link to Gem]* | *Coming soon* |
 
 ### ➕ How to Add Your Projects
 
