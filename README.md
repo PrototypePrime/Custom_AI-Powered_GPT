@@ -1,7 +1,7 @@
+<div align="center">
+
 # 🤖 AI Specialist Prompt Library
 ### *Universal Prompts That Work Across Any AI Platform*
-
-<div align="center">
 
 ![Universal](https://img.shields.io/badge/Works%20On-Gemini%20%7C%20ChatGPT%20%7C%20Claude%20%7C%20Any%20AI-blueviolet?style=for-the-badge)
 ![Zero Code](https://img.shields.io/badge/Code%20Required-ZERO-00D9FF?style=for-the-badge)
