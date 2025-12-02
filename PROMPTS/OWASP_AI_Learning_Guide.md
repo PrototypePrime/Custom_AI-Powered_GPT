@@ -377,21 +377,24 @@ Found a bug or have ideas for improvements?
 
 ## 📜 License
 
-Part of the [AI Specialist Prompt Library](https://github.com/PrototypePrime/AI_Specialist_Prompt_Library).  
-MIT License - Use for educational purposes and ethical security training!
-
----
-
-**Created by:** Mathan Subbiah  
-**LinkedIn:** [https://www.linkedin.com/in/mathan-subbiah-0bb47aa8/](https://www.linkedin.com/in/mathan-subbiah-0bb47aa8/)  
-**Last Updated:** 2025-12-02  
-**Tested On:** Gemini (Free & Advanced)
-**Your Gem:** [Play the Original](https://gemini.google.com/gem/1dqqDjbcTQg0IanTcWFbYVD2390CpUIu3?usp=sharing)
-
----
 
 ## 🎮 Ready to Play?
 
 **Copy the prompt above and start learning AI security the fun way!**
 
 *"The best way to defend AI systems is to think like an attacker - in a safe, ethical environment."*
+
+---
+
+## 📜 License
+
+Part of the [AI Specialist Prompt Library](https://github.com/PrototypePrime/AI_Specialist_Prompt_Library).  
+MIT License - Use for educational purposes and ethical security training!
+
+---
+
+**Created by:** Mathan  
+**LinkedIn:** [https://www.linkedin.com/in/mathan-subbiah-0bb47aa8/](https://www.linkedin.com/in/mathan-subbiah-0bb47aa8/)  
+**Last Updated:** 2025-12-02  
+**Tested On:** Gemini (Free & Advanced)
+**Your Gem:** [Play the Original](https://gemini.google.com/gem/1dqqDjbcTQg0IanTcWFbYVD2390CpUIu3?usp=sharing)

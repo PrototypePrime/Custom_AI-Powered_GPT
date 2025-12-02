@@ -442,6 +442,6 @@ MIT License - Use for authorized security testing across any AI platform!
 
 ---
 
-**Created by:** PrototypePrime  
+**Created by:** Mathan  
 **Last Updated:** 2025-12-02  
 **Tested On:** Gemini (Free), ChatGPT (Plus), Claude (Pro), Standard Chat

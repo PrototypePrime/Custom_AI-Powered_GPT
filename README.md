@@ -9,20 +9,21 @@
 
 **Battle-tested prompts that transform any AI into specialized experts**
 
-<!-- Keywords: AI Prompts, System Instructions, LLM Prompts, Gemini Gems, ChatGPT Custom GPT, Claude Projects, AI Agents, Prompt Engineering, Cybersecurity Prompts, OWASP, Penetration Testing, Free AI Tools, Mathan Subbiah -->
+<!-- Keywords: AI Prompts, System Instructions, LLM Prompts, Gemini Gems, ChatGPT Custom GPT, Claude Projects, AI Agents, Prompt Engineering, Cybersecurity Prompts, OWASP, Penetration Testing, Free AI Tools, Mathan -->
 
-[🎯 Quick Start](#-quick-start) • [🚀 Live AI Specialists](#-live-ai-specialists) • [🏗️ Create Prompts](#-prompt-engineering-guide) • [🆓 Best Free Platform](#-one-prompt-every-platform)
+[🎯 Quick Start](#quick-start) • [🚀 Live AI Specialists](#live-ai-specialists) • [🏗️ Create Prompts](#prompt-engineering-guide) • [🆓 Best Free Platform](#one-prompt-every-platform)
 
 <br>
 
 <p align="center">
-  <b>Created by <a href="https://github.com/PrototypePrime">Mathan Subbiah</a></b>
+  <b>Created by <a href="https://github.com/PrototypePrime">Mathan</a></b>
 </p>
 
 </div>
 
 ---
 
+<a name="one-prompt-every-platform"></a>
 ## 🌐 One Prompt, Every Platform
 
 All prompts in this library are **platform-agnostic**. Copy once, use everywhere:
@@ -48,6 +49,7 @@ No platform-specific modifications needed. Just copy and paste.
 
 ---
 
+<a name="quick-start"></a>
 ## 🚀 Quick Start
 
 ### Option 1: Google Gemini (FREE - Recommended!)
@@ -87,6 +89,7 @@ Just **paste the prompt** at the start of your conversation before asking questi
 
 ---
 
+<a name="live-ai-specialists"></a>
 ## 🚀 Live AI Specialists
 
 > **My Collection of Custom AI Agents**  
@@ -96,16 +99,7 @@ Just **paste the prompt** at the start of your conversation before asking questi
 |-------------------|------------------|--------------|-------------|
 | **OWASP AI Learning Guide** | [View Prompt](./PROMPTS/OWASP_AI_Learning_Guide.md) | [**Play on Gemini**](https://gemini.google.com/gem/1dqqDjbcTQg0IanTcWFbYVD2390CpUIu3?usp=sharing) | 🎮 Gamified AI security training & simulation |
 | **Penetration Test Advisor** | [View Prompt](./PROMPTS/penetration_test_advisor.md) | *[Add Link]* | 🛡️ OWASP web app security expert |
-| *Coming soon* | *[Link to file]* | *[Link to Gem]* | *Coming soon* |
-
-### ➕ How to Add Your Projects
-
-1. **Create** your custom AI (Gem/GPT)
-2. **Save** the prompt file in [`/PROMPTS/`](./PROMPTS/)
-3. **Add a row** to the table above:
-   ```markdown
-   | **Name** | [View Prompt](./PROMPTS/Filename.md) | [Live Link](URL) | Description |
-   ```
+| *Your New Project* | *[Link to file]* | *[Link to Gem]* | *Short description* |
 
 ### 📂 Repository Structure
 
@@ -119,6 +113,7 @@ PROMPTS/
 
 ---
 
+<a name="prompt-engineering-guide"></a>
 ## 🏗️ Prompt Engineering Guide
 
 ### Universal Formula (Works Everywhere)
